@@ -58,9 +58,8 @@ h5 {
 }
 
 /* This container keeps the left navbar and the main page aligned */
-#middleLeftContainer {
-  display: flex;
-}
+/* #middleLeftContainer {
+} */
 
 /* Left Navbar */
 #navbar {
@@ -70,9 +69,10 @@ h5 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  float: left;
   font-size: 1.3em;
   width: 170px;
-  height: 745px;
+  height: 765px;
   padding: 10px;
 }
 #navbar a {
@@ -85,11 +85,11 @@ h5 {
   background-color: #c6dfff;
   border-bottom-right-radius: 10px;
   color: black;
-  padding: 10px;
-  width: 100%;
+  padding: 20px;
   height: 745px;
   margin: auto;
   font-size: 1em;
+  overflow: auto;
 }
 
 /* Do not hide your home section by default, hide all others */

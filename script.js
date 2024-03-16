@@ -1,11 +1,11 @@
-// Section links
+// Make a new array for the navbar links
 const sectionsLinks = [];
-// Specify number of links
+// IMPORTANT : Specify the number of links you are adding in (replace the number 5)
 for (let i = 1; i <= 5; i++) {
   sectionsLinks.push(document.getElementById(`nav${i}`));
 }
 
-// Section content
+// Define what pages you want to be added in
 const sectionsContent = Array.from(
   // Put your sections ID's here
   document.querySelectorAll("#page1, #page2, #page3, #page4, #page5")

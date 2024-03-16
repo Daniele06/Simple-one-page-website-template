@@ -1,4 +1,4 @@
-/* Background and default style */
+/* Customise the background */
 body {
   background-color: #69cdf1;
   margin: 20px;
@@ -10,13 +10,13 @@ a {
   cursor: pointer;
 }
 
-/* Container */
+/* This container contains the whole website except for the background */
 #siteContainer {
   max-width: 950px;
   margin: auto;
 }
 
-/* Header */
+/* The main header on top of the page */
 #siteHeader {
   background-color: #1861bc;
   border-top-left-radius: 50px;
@@ -25,7 +25,7 @@ a {
   align-items: center;
   padding: 30px 10px 30px 40px;
 }
-
+/* Your website logo */
 #siteHeader img {
   width: 100px;
 }
@@ -38,12 +38,12 @@ a {
   margin-left: 20px;
 }
 
-/* Container for Left and Middle */
+/* This container keeps the left navbar and the main page aligned */
 #middleLeftContainer {
   display: flex;
 }
 
-/* Left */
+/* Left Navbar */
 #navbar {
   background-color: #73b2ff;
   border-bottom-left-radius: 10px;
@@ -56,12 +56,11 @@ a {
   height: 745px;
   padding: 10px;
 }
-
 #navbar a {
   margin-top: 20px;
 }
 
-/* Middle */
+/* This is the container for your various pages */
 #main {
   background-color: #c6dfff;
   border-bottom-right-radius: 10px;
@@ -73,7 +72,8 @@ a {
   font-size: 1em;
 }
 
-/* Middle Sections */
+/* Do not hide your home section by default, hide all others */
+/* Then with Javascript it will un-hide them when you click the corresponding link */
 #page2 {
   display: none;
 }
@@ -88,13 +88,4 @@ a {
 
 #page5 {
   display: none;
-}
-
-/* Bottom */
-footer {
-  background-color: #acc5ff;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  padding: 20px;
-  text-align: center;
 }

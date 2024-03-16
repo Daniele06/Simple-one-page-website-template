@@ -1,4 +1,3 @@
 # One page simple personal website template
-A simple layout for one html file websites and navigation with Javascript to update the displayed content
-.<hr>
+A simple layout for one html file websites and navigation with Javascript to update the displayed content.<hr>
 ![Preview](preview.png)

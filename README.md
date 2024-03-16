@@ -1,4 +1,3 @@
 # One page simple personal website template
-Made this thing for some people that asked.
-
+A simple layout for one html file websites and navigation with Javascript to update the displayed content.
 ![Preview](preview.png)

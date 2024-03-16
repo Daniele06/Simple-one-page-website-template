@@ -4,6 +4,12 @@ body {
   margin: 20px;
 }
 
+/* Default for links */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Container */
 #siteContainer {
   max-width: 950px;
@@ -20,15 +26,16 @@ body {
   padding: 30px 10px 30px 40px;
 }
 
-/* Site name */
-#siteHeader h1 {
-  margin-left: 30px;
+#siteHeader img {
+  width: 100px;
 }
 
-/* Default for links */
-a {
-  text-decoration: none;
-  cursor: pointer;
+/* Site name and motto */
+#siteHeader div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
 /* Container for Left and Middle */
